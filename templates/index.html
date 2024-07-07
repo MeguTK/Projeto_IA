@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendador de Filmes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="search-container">
+            <input type="text" id="search-bar" placeholder="Pesquisar...">
+            <button onclick="fetchRecommendations()">🔍</button>
+        </div>
+    </header>
+
+    <main>
+        <h1>Filmes Relacionados</h1>
+        <div class="recommendations-container" id="recommendations-container">
+            <!-- Filmes recomendados serão inseridos aqui -->
+        </div>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Filmes Em Cartaz</a></li>
+                <li><a href="#">Lançamentos</a></li>
+                <li><a href="#">Recomendação IA</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
